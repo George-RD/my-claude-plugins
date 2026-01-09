@@ -1,0 +1,32 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "my_local_plugins",
+  "description": "George's locally developed Claude Code plugins",
+  "owner": {
+    "name": "George Reid-Dowd",
+    "email": "george@reid-dowd.me"
+  },
+  "plugins": [
+    {
+      "name": "arch-patterns",
+      "description": "Architecture overhaul plugin using 20 proven patterns from Game Programming Patterns. Analyzes codebases, identifies anti-patterns, and provides detailed recommendations for TypeScript/JavaScript projects.",
+      "version": "1.0.0",
+      "author": {
+        "name": "George Reid-Dowd",
+        "email": "george@reid-dowd.me"
+      },
+      "source": "./arch-patterns",
+      "category": "development"
+    },
+    {
+      "name": "research-framework",
+      "description": "Hierarchical research framework using sub-agents for gathering, analyzing, planning, and validating research on any topic",
+      "version": "1.0.0",
+      "author": {
+        "name": "George"
+      },
+      "source": "./research-framework",
+      "category": "productivity"
+    }
+  ]
+}

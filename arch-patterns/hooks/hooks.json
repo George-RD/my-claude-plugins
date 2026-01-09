@@ -1,0 +1,18 @@
+{
+  "hooks": [
+    {
+      "event": "PostToolUse",
+      "description": "Gentle architecture reflection after significant code changes",
+      "matcher": {
+        "tool": ["Edit", "Write"],
+        "glob": "**/*.{ts,tsx,js,jsx}"
+      },
+      "hooks": [
+        {
+          "type": "prompt",
+          "prompt": "After this code change, take a brief moment to consider (but don't comment unless something stands out):\n\n1. **Simpler?** Did this change make things easier or harder to understand?\n2. **Coupled?** Would changing this later ripple to other files?\n3. **Earned?** If abstraction was added, is it solving a real problem right now?\n\nStay silent if everything looks good. Only mention something if:\n- The change significantly increased complexity\n- An abstraction was added that might be premature\n- There's a much simpler approach that was missed\n\nIf you do speak, ask a gentle question rather than making a judgment. The goal is reflection, not criticism."
+        }
+      ]
+    }
+  ]
+}

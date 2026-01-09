@@ -1,0 +1,9 @@
+{
+  "name": "research-framework",
+  "version": "1.0.0",
+  "description": "Hierarchical research framework using sub-agents for gathering, analyzing, planning, and validating research on any topic",
+  "author": {
+    "name": "George"
+  },
+  "keywords": ["research", "analysis", "planning", "sop", "orchestration"]
+}
