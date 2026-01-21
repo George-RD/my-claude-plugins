@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Architecture overhaul plugin using 20 proven patterns from Game Programming Patterns. Analyzes codebases, identifies anti-patterns, and provides detailed recommendations for TypeScript/JavaScript projects.",
   "author": {
-    "name": "George Reid-Dowd",
-    "email": "george@reid-dowd.me"
+    "name": "George-RD"
   },
   "keywords": [
     "architecture",

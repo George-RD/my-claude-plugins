@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "A file was written. If this appears to be an SOP file (contains SOP-related frontmatter or is in an SOPs directory), briefly validate: (1) Does it have required frontmatter (title, version, status, owner)? (2) Does it avoid banned vague terms (regularly, as needed, when appropriate)? Respond 'OK' if valid SOP format, or briefly note what's missing. For non-SOP files, respond 'N/A'."
+          }
+        ]
+      }
+    ]
+  }
+}

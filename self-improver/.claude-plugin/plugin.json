@@ -1,0 +1,9 @@
+{
+  "name": "self-improver",
+  "version": "0.1.0",
+  "description": "Analyzes conversations to detect inefficiencies and suggest prompt improvements. Uses tiered model routing (Haiku for screening, Opus for deep analysis) with credit safeguards.",
+  "author": {
+    "name": "George-RD"
+  },
+  "keywords": ["self-improvement", "prompt-optimization", "conversation-analysis", "efficiency"]
+}

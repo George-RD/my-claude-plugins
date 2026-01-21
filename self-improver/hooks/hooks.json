@@ -1,0 +1,26 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "A Claude Code session has ended. Briefly assess if this session had any notable inefficiencies (repeated clarifications, excessive iterations, or confusion). If the session was smooth and efficient, respond with just 'PASS'. If issues were detected, respond with a brief JSON: {\"flag\": true, \"severity\": 1-10, \"issue\": \"brief description\"}. Be selective - only flag sessions with real problems, not minor friction."
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "An Edit was made. If this edit modified CLAUDE.md or any configuration file, briefly check: (1) Is there risk of instruction bloat? (2) Does this duplicate existing instructions? Respond 'OK' if no concerns, or briefly note the concern if there is one."
+          }
+        ]
+      }
+    ]
+  }
+}

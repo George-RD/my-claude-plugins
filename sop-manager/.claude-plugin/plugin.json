@@ -1,0 +1,9 @@
+{
+  "name": "sop-manager",
+  "version": "0.1.0",
+  "description": "Creates, maintains, and iterates on SOPs (Standard Operating Procedures) using multi-agent workflows. Integrates with Obsidian vaults and leverages research-framework for research tasks.",
+  "author": {
+    "name": "George-RD"
+  },
+  "keywords": ["sop", "documentation", "process", "obsidian", "charting", "navigation"]
+}

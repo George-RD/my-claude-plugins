@@ -1,0 +1,9 @@
+{
+  "name": "automem-helper",
+  "version": "1.0.0",
+  "description": "Automatic memory context loading and usage guidance for AutoMem MCP",
+  "author": {
+    "name": "George-RD"
+  },
+  "keywords": ["memory", "automem", "context", "mcp"]
+}

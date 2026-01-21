@@ -1,10 +1,9 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "my_local_plugins",
-  "description": "George's locally developed Claude Code plugins",
+  "description": "Custom Claude Code plugins for productivity and architecture",
   "owner": {
-    "name": "George Reid-Dowd",
-    "email": "george@reid-dowd.me"
+    "name": "George-RD"
   },
   "plugins": [
     {
@@ -12,8 +11,7 @@
       "description": "Architecture overhaul plugin using 20 proven patterns from Game Programming Patterns. Analyzes codebases, identifies anti-patterns, and provides detailed recommendations for TypeScript/JavaScript projects.",
       "version": "1.0.0",
       "author": {
-        "name": "George Reid-Dowd",
-        "email": "george@reid-dowd.me"
+        "name": "George-RD"
       },
       "source": "./arch-patterns",
       "category": "development"
@@ -23,9 +21,29 @@
       "description": "Hierarchical research framework using sub-agents for gathering, analyzing, planning, and validating research on any topic",
       "version": "1.0.0",
       "author": {
-        "name": "George"
+        "name": "George-RD"
       },
       "source": "./research-framework",
+      "category": "productivity"
+    },
+    {
+      "name": "automem-helper",
+      "description": "Automatic memory context loading and usage guidance for AutoMem MCP. Includes SessionStart hook for repo-specific recall and skill for memory best practices.",
+      "version": "1.0.0",
+      "author": {
+        "name": "George-RD"
+      },
+      "source": "./automem-helper",
+      "category": "productivity"
+    },
+    {
+      "name": "sop-manager",
+      "description": "Creates, maintains, and iterates on SOPs (Standard Operating Procedures) using multi-agent workflows. Integrates with Obsidian vaults and leverages research-framework for research tasks.",
+      "version": "0.1.0",
+      "author": {
+        "name": "George-RD"
+      },
+      "source": "./sop-manager",
       "category": "productivity"
     }
   ]
