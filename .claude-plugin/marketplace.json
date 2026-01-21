@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "my_local_plugins",
+  "name": "my-claude-plugins",
   "description": "Custom Claude Code plugins for productivity and architecture",
   "owner": {
     "name": "George-RD"
