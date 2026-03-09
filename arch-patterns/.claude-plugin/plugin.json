@@ -1,6 +1,6 @@
 {
   "name": "arch-patterns",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Architecture overhaul plugin using 20 proven patterns from Game Programming Patterns. Analyzes codebases, identifies anti-patterns, and provides detailed recommendations for TypeScript/JavaScript projects.",
   "author": {
     "name": "George-RD"
@@ -14,8 +14,5 @@
     "design-patterns",
     "code-quality"
   ],
-  "repository": {
-    "type": "git",
-    "url": ""
-  }
+  "repository": ""
 }

@@ -45,6 +45,16 @@
       },
       "source": "./sop-manager",
       "category": "productivity"
+    },
+    {
+      "name": "fugro-investigation",
+      "description": "Investigation toolkit for Fugro MEI incident investigations. Database protocols, evidence capture rules, POET analysis, Kelvin TOP SET methodology, and sub-agent instructions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "George-RD"
+      },
+      "source": "./fugro-investigation",
+      "category": "productivity"
     }
   ]
 }
